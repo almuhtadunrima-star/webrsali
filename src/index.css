@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Custom accessible scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(13, 148, 136, 0.4);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(13, 148, 136, 0.7);
+}
+
+/* Elder mode high contrast enhancements */
+.elder-mode button,
+.elder-mode input,
+.elder-mode a {
+  min-height: 44px;
+}
+
+.elder-mode {
+  letter-spacing: 0.015em;
+}

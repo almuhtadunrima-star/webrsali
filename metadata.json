@@ -1,0 +1,8 @@
+{
+  "name": "RS Muhammad Ali",
+  "description": "Peduli Bersama",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
